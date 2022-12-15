@@ -1,4 +1,4 @@
-const studentsArrayOne = ['John', 'Sam', 'Scott', 'Lisa','Bob','Paul', 'Lola', 'Andrew', 'Vladimir', 'Inna'];
+const studentsArrayOne = ['John','Sam','Scott','Lisa','Bob','Paul','Lola','Andrew','Vladimir','Inna'];
 
 studentsArrayOne.push('Mathew','Tom');
 
@@ -15,7 +15,7 @@ const studentCheck = prompt('Tell me the name');
 
 const studentsArrayTwo = studentsArrayOne.slice(3,7);
 
-    const studentsArrayThree = ['Rebeca', 'Mark', 'George','Antony','Ben','Claud'];
+    const studentsArrayThree = ['Rebeca','Mark','George','Antony','Ben','Claud'];
     const allStudents = studentsArrayTwo.concat(studentsArrayThree);
 
 allStudents.splice(4,1);
