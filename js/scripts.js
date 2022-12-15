@@ -11,7 +11,9 @@ studentsArrayOne.shift();
 const studentCheck = prompt('Tell me the name');
     if (studentsArrayOne.includes(studentCheck)){
         console.log(`${studentCheck} is here`);
-    } else console.log(`${studentCheck} is not here`);
+    } else {
+        console.log(`${studentCheck} is not here`);
+    }
 
 const studentsArrayTwo = studentsArrayOne.slice(3,7);
 
